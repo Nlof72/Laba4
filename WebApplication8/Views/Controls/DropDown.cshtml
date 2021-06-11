@@ -1,0 +1,27 @@
+﻿<h2>Drop-Down List</h2>
+<form>
+
+    <h4>Month</h4>
+    <select name="value">
+        <option value="January" />January
+        <option value="February" />February
+        <option value="March" />March
+        <option value="April" />April
+        <option value="May" />May
+        <option value="June" />June
+        <option value="Jule" />Jule
+        <option value="August" />August
+        <option value="September" />September
+        <option value="Octomber" />Octomber
+        <option value="November" />November
+        <option value="December" />December
+    </select>
+    <br />
+    <button formmethod="post" formaction="~/Controls/GetDataFromView" type="submit">
+        submit
+    </button>
+    <div style="visibility: hidden">
+        <input name="tag" value="Drop-Down List" />
+        <input name="input1" value="Month" />
+    </div>
+</form>
